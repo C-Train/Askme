@@ -81,7 +81,7 @@ public class FXMLDocumentController implements Initializable {
 
     @FXML
     public  void handlePickupRecAction(ActionEvent event) {
-      System.out.println("Conrad is best");
+      System.out.println("hello");
         ellips.setFill(colorpicker.getValue());
         int n = rnd.nextInt(7);
         switch (n) {
